@@ -1,0 +1,145 @@
+body {
+    max-width: 1160px;
+    /*font: 1em normal Arial, sans-serif;*/
+    color: #111111;
+    /*font-family: 'Titillium Web', sans-serif;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* rules for the header */
+header {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+    border: 2px solid #66cc00;
+    opacity:0.8;
+}
+
+/* rules for the center header */
+#searchBoxForm {
+    margin-top: 30px;
+    display: flex;
+}
+#searchBox {
+    height: 20px;
+    width: 250px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dropdownSelect {
+    width: 250px;
+    padding: 5px;
+    background-color: #66cc00;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 260px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: #66cc00;
+    text-align: center;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdownContent a:hover {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+/* rules for the right header */
+
+#rightHeader {
+    display: flex;
+    margin-top: 40px;
+}
+
+#cartCount{
+    width: 150px;
+    margin: 8px 0 0 10px;
+}
+
+#loginButton {
+    background-color: #66cc00;
+    opacity:0.8;
+    width: 58px;
+    height: 30px;
+    margin: 4px 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#loginButton a{
+    color: white;
+    text-decoration: none;
+}
+#loginButton a:hover {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+/* rules for the footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #66cc00;
+    margin-left: 10px;
+    padding: 20px 0;
+    background-color: #66cc00;
+    opacity:0.8;
+    font-size: 0.8em;
+}
+
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 180px 0 10px;
+    width: 300px;
+}
+
+#footerLeft a{
+    padding-top: 15px;
+    text-decoration-line: none;
+    color: green;
+    font-family: "Arial Hebrew", serif;
+
+}
+
+#footerRight {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    width: 80px;
+}
+
+.insertBook{
+    margin-left: 150px;
+}
+#insertBookForm{
+    margin-left: 300px;
+}
+.database{
+    margin-left: 150px;
+
+}

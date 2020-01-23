@@ -1,0 +1,115 @@
+/* Styles only used on the cart page */
+
+/* Styles for top section that has heading and command buttons */
+h1 {
+    margin-left: 480px;
+}
+#pageHead{
+    height:220px;
+    width:1150px;
+    display: flex;
+    background-color: whitesmoke;
+    padding: 2px 2px;
+    margin: 10px 10px 5px 10px;
+}
+#topSection {
+    padding: 20px 200px 0 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;\margin-left: 10px;
+    border-top: 1px solid #66cc00;
+    border-left: 1px solid #66cc00;
+    border-right: 1px solid #66cc00;
+}
+
+.commandButton {
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #66cc00;
+    opacity:0.8;
+    font-size: smaller;
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles for middle section, which has the table of cart items  */
+#midSection {
+    padding: 10px 200px 10px 200px;
+    margin-left: 10px;
+    border-left: 1px solid #66cc00;
+    border-right: 1px solid #66cc00;
+}
+
+#midSection h1 {
+    margin-left: 220px;
+}
+
+table {
+    width: 750px;
+    border-bottom: 1px solid lightgray;
+}
+
+tr {
+    height: 50px;
+    border-bottom: 1px solid #66cc00;
+}
+.titleColumn{
+    width:53%;
+    text-align: center;
+}
+.quantityColumn,.bookIdColumn{
+    width:8%;
+    text-align: center;
+}
+.priceColumn,.removeColumn{
+    width:8%;
+    text-align: center;
+}
+
+.totalPriceColumn{
+    text-align: center;
+    width:15%;
+}
+
+.btnRemoveAction {
+    height:25px;
+    width:24px;
+}
+/*#quantityInput {
+    width: 15px;
+    text-align: right;
+}
+
+#updateButton {
+    height: 22px;
+    border-radius: 3px;
+    border: none;
+    margin: 6px 0 0 4px;
+    text-align: center;
+    background-color: #66cc00;
+    opacity:0.8;
+    color: white;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+#updateButton:hover {
+    color: darkgreen;
+    text-decoration: #66cc00;
+}
+*/
+/* Styles for bottom section that has cart totals */
+#bottomSection {
+    padding: 30px 200px 20px 200px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #66cc00;
+    border-right: 1px solid #66cc00;
+}
+#emptycart{
+    text-align:center;
+}

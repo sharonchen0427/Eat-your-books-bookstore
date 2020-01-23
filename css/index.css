@@ -1,0 +1,65 @@
+#welcome{
+    font-family: "Arial Hebrew", serif;
+    font-size: xx-large;
+    color: Whitesmoke;
+    padding: 10px 8px;
+    margin: 30px;
+    background-color: #82D900;
+    border-radius: 5px;
+    text-align: center;
+}
+.content{
+    display: flex;
+}
+.leftText{
+    margin-left: 10px;
+    padding: 10px;
+    width: 280px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    font-family: Courier New, serif;
+}
+
+.rightNav{
+    width:900px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Courier New, serif;
+    background-color: whitesmoke;
+
+}
+.nav{
+    background: #f3f3f3;
+    display:flex;
+    font-family:sans-serif;
+    flex-wrap: wrap;
+}
+.nav a{
+    text-decoration-line: none;
+    font-family: "Courier New", serif;
+}
+.navText{
+    display:flex;
+    width: 140px;
+    margin-left: 4px;
+    font-weight: bold;
+
+}
+.navText:hover
+{
+    text-decoration:none;
+    color:#00A0C6;
+    cursor:pointer;
+}
+.navPic{
+    height:200px;
+    width:280px;
+}
+.navPic:hover
+{
+    opacity:80%;
+}
+

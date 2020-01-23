@@ -1,0 +1,78 @@
+/*#username{
+
+}
+
+tr{
+    height: 50px;
+    width:100px;
+
+}
+.loginBox {
+    border: 3px solid #66cc00;
+    height: 200px;
+    width:400px;
+
+}
+
+
+
+.loginContainer logOutBtn{
+    margin-left:375px;
+}
+???
+.loginContainer{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left:475px;
+    margin-bottom: 80px;
+}
+ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 125%;
+}
+
+label {
+    width: 125px;
+    float: left;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+button {
+    margin-top: 12px;
+}
+
+#invalidEntry {
+    color: red;
+    text-align: center;
+}
+
+#loginForm {
+
+    display: inline-block;
+    border: 2px solid yellowgreen;
+    padding: 10px;
+
+    margin-bottom: 60px;
+
+}
+
+#buttonContainer p {
+    display: inline-block;
+    text-align: center;
+}
+#loginInfo{
+    text-align: center;
+}
+.validEntry{
+    text-align: center;
+}
